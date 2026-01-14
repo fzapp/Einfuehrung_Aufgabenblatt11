@@ -17,7 +17,7 @@ public class P1_main {
 		if(b == 1) {
 			return a;
 		}
-		return potenzenRekursiv(a, b-1);
+		return a * potenzenRekursiv(a, b-1);
 	}
 	
 	public double potenzenIterativ(double a, int b) {
